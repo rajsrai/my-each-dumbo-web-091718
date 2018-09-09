@@ -4,4 +4,5 @@ while x < array.size
 yield (array[x]) do |x|
   x+=1
 end
+array 
 end
