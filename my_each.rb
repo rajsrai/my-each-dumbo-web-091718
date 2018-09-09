@@ -1,6 +1,7 @@
-def my_each(collection)
-collection = [1, 2, 3, 4]
-yield my_each(collection) do |i|
-  
+def my_each(array)
+x = 0
+while x < 0 
+yield my_each(array) do |x|
+  x+=1
 end
 end
